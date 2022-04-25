@@ -200,10 +200,12 @@
                 font-size: 32px;
             }
             
+            }
+            
         }
 	</style>
 
-    <title>DISARPUSKKR</title>
+    <title>ARSIP DISARPUSKKR</title>
   </head>
   <body>
 <!-- Navbar -->
@@ -220,16 +222,17 @@
 					<a class="nav-item nav-link" href="perpustakaan.php">Perpustakaan</a>
                   
 
-                <div class="dropdown show">
+                    <div class="dropdown show">
                     <a class="nav-item nav-link" href="kearsipan.php" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Kearsipan
                     </a>
 
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="layanan.php">Layanan</a>
-                    <a class="dropdown-item" href="arsip.php">Arsip</a>
-                
-                    </div>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="layanan.php">Layanan</a>
+
+                <a class="dropdown-item" href="publikasi.php">Publikasi</a>
+            
+                </div>
                 </div>
  
 
@@ -243,7 +246,7 @@
 <!-- Akhir Navbar -->
 
 <!--Jumbotron -->
-	<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron jumbotron-fluid">
 		<div class="container">
 			<h1 class="display-4">Selamat Datang Di Website Dinas Kearsipan dan Perpustakaan Kabupaten Kubu Raya</h1>
 			<a href="register_user.php" class="btn btn-primary tombol">BUAT AKUN</a>
@@ -251,71 +254,88 @@
 	</div>
 <!--Akhir Jumbotron -->
 
-<!-- Container -->
-<div class="container">
-	<!-- info pnael -->
-	<div class="row justify-content-center">
-		<div class="col-10 info-panel">
-			<div class="row">
-				<div class="col-lg">
-					<img src="img/employee.png" alt="employee" class="float-left">
-					<h4>24 Hours</h4>
-					<p>Lorem ipsum dolor sit amet consectetur</p>
-				</div>
-				<div class="col-lg">
-					<img src="img/hires.png" alt="hires" class="float-left">
-					<h4>High-Res</h4>
-					<p>Lorem ipsum dolor sit amet consectetur</p>
-				</div>
-				<div class="col-lg">
-					<img src="img/security.png" alt="security" class="float-left">
-					<h4>Security</h4>
-					<p>Lorem ipsum dolor sit amet consectetur</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Akhir info panel -->
+<!-- Navbar -->
 
-	<!-- Workingspace -->
-	<div class="row workingspace">
-		<div class="col-lg-6">
-			<img src="img/workingspace.png" alt="workingspace" class="img-fluid">
-		</div>
-		<div class="col-lg-6">
-			<h3>Books are a <span>source</span> of <span>knowledge</span></h3>
-			<p>Membaca dengan hati dan pikiran yang tenang 
-				serta mempelajari hal baru setiap harinya.</p>
-				<a href="gallery.php" class="btn btn-primary tombol">Gallery</a>
-		</div>
-	</div>
-	<!-- Akhir Workingspace -->
+<nav class="navbar navbar-light bg-light justify-content-between">
+  <a class="navbar-brand">KEARSIPAN DISARPUSKKR</a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
 
-	<!-- Testimonial -->
-	<section class="testimonial">
-		<div class="row justify-content-center">
-			<div class="col-lg-8">
-				<h5>"Membaca dengan hati dan pikiran yang tenang 
-				serta mempelajari hal baru setiap harinya."</h5>
-			</div>
-		</div>
 
-		<div class="row justify-content-center">
-			<div class="col-lg-6 justify-content-center d-flex">
-				<figure class="figure">
-					<img src="img/jumb5.jpg" class="figure-img img-fluid rounded-circle" alt="testi 1">
-					<figcaption class="figure-caption">
-						<h5>DISARPUS</h5>
-						<p>Disarpuskkr</p>
-					</figcaption>
-				</figure>
-			</div>
-		</div>
-	</section>
-	<!-- Akhir Testimonial -->
+<!-- Akhir Navbar -->
+
+<!-- <ul class="list-group">
+  <li class="list-group-item">Undang-Undang No. 4 Tahun 1990</li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Morbi leo risus</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul> -->
+
+
+<div class="table-responsive">
+<table class="table">
+  <thead>
+    <tr align=center >
+      <th scope="col">No.</th>
+      <th scope="col">SKPD</th>
+      <th scope="col">Nomor BOKS</th>
+      <th scope="col">Nomor ARSIP</th>
+      <th scope="col">Nomor KLASIFIKASI</th>
+      <th scope="col">URAIAN INFORMASI ARSIP</th>
+      <th scope="col">KURUN WAKTU</th>
+      <th scope="col">JUMLAH/VOLUME</th>
+      <th scope="col">TINGKAT PERKEMBANGAN</th>
+      <th scope="col">LETAK</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+      <td>129383167</td>
+      <td>77728991</td>
+      <td>919928sn</td>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium suscipit in impedit. Error repellat sed illo odit impedit saepe provident quam debitis. Animi iure nesciunt vel mollitia cum blanditiis necessitatibus.</td>
+      <td>69 hari</td>
+      <td>11</td>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+      <td>c87</td>
+    </tr>
+
+    <tr>
+      <th scope="row">2</th>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+      <td>129383167</td>
+      <td>77728991</td>
+      <td>919928sn</td>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium suscipit in impedit. Error repellat sed illo odit impedit saepe provident quam debitis. Animi iure nesciunt vel mollitia cum blanditiis necessitatibus.</td>
+      <td>69 hari</td>
+      <td>11</td>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+      <td>c87</td>
+    </tr>
+
+    <tr>
+      <th scope="row">3</th>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+      <td>129383167</td>
+      <td>77728991</td>
+      <td>919928sn</td>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium suscipit in impedit. Error repellat sed illo odit impedit saepe provident quam debitis. Animi iure nesciunt vel mollitia cum blanditiis necessitatibus.</td>
+      <td>69 hari</td>
+      <td>11</td>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+      <td>c87</td>
+    </tr>
+
+  </tbody>
+</table>
 </div>
-<!-- Akhir container -->
-
 
 
     <!-- Optional JavaScript -->

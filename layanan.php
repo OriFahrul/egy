@@ -205,7 +205,7 @@
         }
 	</style>
 
-    <title>DISARPUSKKR</title>
+    <title>LAYANAN DISARPUSKKR</title>
   </head>
   <body>
 <!-- Navbar -->
@@ -275,11 +275,11 @@
   <li class="list-group-item">Vestibulum at eros</li>
 </ul> -->
 
-<div class="container">
+
 <div class="table-responsive">
 <table class="table">
   <thead>
-    <tr>
+    <tr align = center>
       <th scope="col">No.</th>
       <th scope="col">Title</th>
       <th scope="col">Deskripsi</th>
@@ -322,7 +322,7 @@
   </tbody>
 </table>
 </div>
-</div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
